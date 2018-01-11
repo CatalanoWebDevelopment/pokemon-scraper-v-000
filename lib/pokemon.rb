@@ -1,10 +1,10 @@
 class Pokemon
 
   def initialize(id: 'default', name: 'default', type: 'default', db: 'default')
-    puts id
-    puts name
-    puts type
-    puts db
+    id
+    name
+    type
+    db
   end
 
 end
