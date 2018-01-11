@@ -8,5 +8,5 @@ class Pokemon
     @db = db
     @@all << self
   end
-  
+
 end
