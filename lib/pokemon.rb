@@ -16,7 +16,6 @@ class Pokemon
 
   def self.find(id, db)
     db.execute("SELECT * FROM pokemon WHERE id = ?", id)
-    Pokemon.save(array[1], array[2], db)
   end
 
 end
